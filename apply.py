@@ -6,3 +6,4 @@ def function(x):
 
 df=pd.DataFrame({"Number":range(10, 100)})
 df['Square'] = df['Number'].apply(lambda x: function(x))
+
